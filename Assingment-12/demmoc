@@ -1,0 +1,13 @@
+typedef struct Student
+{
+	int rollNo;
+	char name[20];
+	int marks;
+}Student;
+
+void main()
+{
+	Student s1,s2,s3;
+	
+	
+}

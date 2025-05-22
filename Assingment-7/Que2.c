@@ -16,7 +16,7 @@ void main(){
 	search(arr,size);
 }
 
-int search(int arr[],int size){
+void search(int arr[],int size){
 	int num;	
 	printf("\nEnter the number you want to search:");
 	scanf("%d",&num);

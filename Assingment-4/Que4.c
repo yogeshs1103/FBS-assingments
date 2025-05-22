@@ -23,12 +23,12 @@ void main(){
 					fact = j*fact;
 						j++;
 				}
-				//printf("%d\n",fact);
+				
 				sum = sum + fact;
-				//printf("%d\n",sum);
+				
 				temp = temp/10;	
 			}
-		//	printf("\nsum:%d",sum);
+		
 			if(sum==i){
 				printf("\n%d",i);
 			

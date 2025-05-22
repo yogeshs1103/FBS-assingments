@@ -27,7 +27,7 @@ void sortArray(int arr[],int size){
 	int i;
 		for(i=0;i<size;i++){
 			int j;
-			for(j=1;j<=size;j++){
+			for(j=1;j<size;j++){
 				if(arr[j]<arr[j-1]){
 					swap(&arr[j],&arr[j-1]);
 				}

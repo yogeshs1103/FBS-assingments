@@ -10,7 +10,7 @@ void main(){
 	int i;
 	printf("Enter the elements in arr:");
 	for(i=0;i<size;i++){
-		printf("\narr[%d]=",i);
+		printf("\narr[%d]=",i+1);
 		scanf("%d",&arr[i]);
 	}
 	
@@ -19,7 +19,11 @@ void main(){
 		printf(" %d ",arr[i]);
 	}
 	printf("}");
+	printAlternate(arr,size);
+}
+void printAlternate(int arr[],int size){
 	
+	int i;
 	printf("\nPrinting Alternate Numbers:-");
 	printf("{");
 	for(i=0;i<size;i++){
